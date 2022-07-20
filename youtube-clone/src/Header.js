@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     const [inutSearch, setInputSearch] = useState('')
     return (
-        <div className="header">
+        <div className="header" style={{backgroundColor:'white'}}>
             <div className="header__left">
                 <MenuIcon />
                 <Link to="/">
